@@ -66,12 +66,13 @@
             </dependency>
 
             <dependency>
-                <groupId>cn.bugstack</groupId>
+                <groupId>com.liubo</groupId>
                 <artifactId>ai-rag-knowledge-api</artifactId>
                 <version>1.0</version>
             </dependency>
+
             <dependency>
-                <groupId>cn.bugstack</groupId>
+                <groupId>com.liubo</groupId>
                 <artifactId>ai-rag-knowledge-tigger</artifactId>
                 <version>1.0</version>
             </dependency>

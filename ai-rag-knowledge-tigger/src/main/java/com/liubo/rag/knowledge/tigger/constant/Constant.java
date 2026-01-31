@@ -6,5 +6,7 @@ package com.liubo.rag.knowledge.tigger.constant;
  */
 public class Constant {
     public static final int SUCCESS = 200;
+    public static final int ERROR = 500;
     public static final String SUCCESS_INFO = "调用成功";
+    public static final String GIT_CLONED_REPO = "./git-cloned-repo";
 }

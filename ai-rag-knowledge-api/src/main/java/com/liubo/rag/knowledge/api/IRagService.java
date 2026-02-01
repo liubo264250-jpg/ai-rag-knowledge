@@ -3,7 +3,6 @@ package com.liubo.rag.knowledge.api;
 import com.liubo.rag.knowledge.api.response.Response;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
 import java.util.List;
 
 /**
@@ -32,5 +31,5 @@ public interface IRagService {
      * @param token
      * @return
      */
-    Response<String> analyzeGitRepository(String repoUrl,String userName, String token) throws IOException;
+    Response<String> analyzeGitRepository(String repoUrl,String userName, String token) ;
 }
